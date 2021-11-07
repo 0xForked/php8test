@@ -1,0 +1,27 @@
+{
+    "name": "bakode/php8test",
+    "description": "Play with PHP8",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "A. A. Sumitro",
+            "email": "hello@aasumitro.id"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bakode\\Php8Test\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
